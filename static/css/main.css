@@ -1,58 +1,111 @@
-body
+*
 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin : auto;
+    padding: auto;
 }
 
-h1
+body
 {
-    margin: -1.5%;
-    padding: 2%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header 
+{
+    background-color: #05386b;
+    color: #e7e71c;
+    height: 80px;
+}
+
+header h1 
+{
+    padding : 15px 0px;
     text-align: center;
-    background-color: rgb(59, 68, 238);
+    font-weight: 900;
+}
+
+.quote
+{
+    margin: 20px 0px 40px 0px;
+    text-align: center;
+}
+
+h3
+{
+    color: #000;
+    align-self: center;
 }
 
 table
 {
-    margin: 3% 40%;
-    padding : 1%;
-    border: solid rgb(3, 64, 117);
+    background-color: #05386b;
+    color:#e7e71c;
+    font-weight: 500;
+    font-size: large;
+    border: 3px solid #000;
+    width : 60%;
 }
 
-td 
+table th 
 {
     text-align: center;
-    padding: 5px;
+    padding : 10px;
 }
 
-form
+table td 
 {
-    margin: 5px 42.5%;
+    text-align: center;
+    padding : 10px;
+    color: #fff;
 }
 
-
-
-input[type$="submit"]
+a
 {
-    padding: 4px 5%;
-    margin: 20px 80px;
-    background: rgb(37, 73, 191);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: italic;
-    font-weight: bolder;
-    color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover
+{
+    color: rgb(5, 176, 5);
+}
+
+form  
+{
+    margin: 50px 0px;
 }
 
 input[type$="text"]
 {
-    padding: 7.5%;
-    margin: 5px 20px;
-    background: rgb(39, 125, 245);
-    border-radius: 7%;
-    border: solid 2px;
+    display: block;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    height: 30px;
+    align-self: center;
+    background: #05386b;
+    border: solid 2px #000;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: italic;
     font-weight: bolder;
     color: rgb(255, 255, 255);
+}
+
+input[type$="submit"]
+{
+    display: block;
+    padding : 10px 20px;
+    align-self: center;
+    background: #05386b;
+    color: #e7e71c;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+input[type$="submit"]:hover
+{
+    background-color: rgb(5, 176, 5);
+    color: #fff;
 }
 
 
